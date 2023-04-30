@@ -1,17 +1,23 @@
 AKS_Cluster_Terraform_deployment
 
 Objective - Deploy Azure Kubernetes Cluster using terraform script
+
 Deploying ask cluster from azure portal can take long time. To automate this process, I have written terraform script.
 
 
 
 Steps to setup code in local computer
+
 1.	Install terraform based on your OS.
 You can follow below link
+
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli 
+
 2.	Clone the repo
 Git clone https://github.com/incredulouss/AKS_Cluster_Terraform_deployment.git
+
 3.	Now run terraform init to setup everything
+
 terraform init
 
 
