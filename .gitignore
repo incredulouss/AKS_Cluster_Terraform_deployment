@@ -1,0 +1,6 @@
+
+terrafrom.tfstate
+.terrafrom.lock.hcl
+terrafrom.tfstate.backup
+dev.tfvars
+///
