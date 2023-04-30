@@ -69,8 +69,7 @@ You can do some changes in main.tf to have more configurations in AKS cluster
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Reuseable
+- Easily configurabale
+- Detailed
 
