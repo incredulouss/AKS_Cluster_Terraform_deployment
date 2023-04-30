@@ -19,11 +19,14 @@ terraform init
 Configure Environment tfvars file 
 There is a file called env.tfvars , it will have all the environment variables. You can configure your AKS cluster based on these values.
 For authentication to Azure I am using Service principle 
+
+
 •	subscription_id = "xxx.xxx.xxx.xxx"
 •	client_id       = "xxx.xxx.xxx.xxx"
 •	client_secret   = "xxx.xxx.xxx.xxx"
 •	tenant_id       = "xxx.xxx.xxx.xxx"
 These values will authenticate to azure.
+
 Note – Make sure the SP has required permission (Contributor Role) to make deployments in resource group
 
                                                                                                                                                                                           
