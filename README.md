@@ -5,7 +5,9 @@
 Deploy Azure Kubernetes Cluster using terraform script
 Deploying ask cluster from azure portal can take long time. To automate this process, I have written terraform script.
 
-You can setup terraform in your local computer and run this script to deploy ASK clusters
+You can setup terraform in your local computer and run this script to deploy ASK clusters.
+
+The state file will be stored in ADLSv2 container, and not be saved locally. 
 
 
 
