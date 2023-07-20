@@ -21,7 +21,7 @@ variable "tenant_id" {
 
 variable "devRGName" {
   type        = string
-  default     = "nBanks-rg-dev-westeurope"
+  default     = ""
   description = "name of resource group of Dev Enviroenmnet"
 }
 
@@ -33,13 +33,13 @@ variable "devRGlocation" {
 
 variable "dev-aks-cluster" {
   type        = string
-  default     = "nBanks-aks-cluster-dev-westeurope"
+  default     = ""
   description = "name of aks cluster of Dev Enviroenmnet"
 }
 
 variable "acr-name" {
   type        = string
-  default     = "nBanksacrdev"
+  default     = ""
   description = "name of acr registry of Dev Enviroenmnet"
 }
 //Agent Pool configuration 
